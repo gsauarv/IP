@@ -146,3 +146,133 @@
     margin-top: 40px;
 
 }
+
+/* Second Page */
+/* Info Page */
+.infoSection
+{
+    width: 100%;
+    height: 80vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.534)), url(img/palm-trees-at-night-258154\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.infoHeading
+{
+  width: 50%;
+  height: 80vh;
+  float: left;
+  margin: 0 auto;
+
+}
+
+
+.infoHeading h3
+{
+    width: 55%;
+    font-family: 'Montserrat', sans-serif;
+    font-size:19px;
+    color: white;
+    text-align: justify;
+    padding-top:180px;
+    margin-left: 100px;
+    font-weight: bold;
+    
+}
+
+.infoHeading p
+{
+    width: 65%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: white;
+    padding-top:180px;
+    padding-left: 50px;
+    font-weight:500;
+    
+    
+}
+
+.infoButton
+{
+    width:150px;
+    height: 45px;
+    background-color:#004A2F;
+    border:none;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+
+
+}
+
+
+.descSection
+{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    margin: 0 auto;
+}
+
+.descInfoleft
+{
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+
+.descInfoleft h3
+{
+    font-family: 'Rokkitt', serif;
+    font-size:35px;
+    margin-top: 80px;
+    margin-left: 100px;
+        letter-spacing: 2px;
+    font-weight:600;
+
+    
+}
+
+.descInfoleft p
+{
+    margin-left: 100px;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: left;
+    font-weight:lighter;
+    color: rgb(48, 48, 48);
+}
+
+
+.descInforight
+{
+    float:right;
+    width: 50%;
+    height: 550px;
+    overflow: hidden;
+    /* position: center; */
+    background-image: url(img/bed.jpg);
+    background-position: center;
+    margin-top: 20px;
+    background-size: cover;
+
+}
+
+.descInforight img
+{
+    height: 550px;
+    /* padding-left: 150px; */
+    margin-top: 20px;
+    margin-right: 80px;
+}
