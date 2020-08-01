@@ -4,6 +4,30 @@
     padding: 0;
 }
 
+#landingPage{
+    width: 100%;
+    transition: 5s ease-in-out;
+}
+
+#infoSection
+{
+    width: 100%;
+    transition: 5s ease-in-out;
+}
+
+#descSection
+{
+    width: 100%;
+    transition: 5s ease-in-out;
+}
+
+#foodInfo
+{
+    width: 100%;
+    transition: 5s ease-in-out;
+    
+}
+
 .landingPage{
     width: 100%;
     height:80px;
@@ -95,6 +119,16 @@
 {    width: 50%;
     float: left;
     margin: 0 auto;
+
+}
+
+.imgs
+{
+    width: 00px;
+    height:560px;
+    float:right;
+    overflow: hidden;
+    z-index: -1;
 }
 
 .containers img
@@ -102,7 +136,9 @@
     height: 530px;
     margin-top: 40px;
     margin-left: 140px;
+    
 }
+
 .landingPageHeading
 {
     width: 55%;
@@ -113,6 +149,7 @@
     letter-spacing: 2px;
     word-spacing: 2px;
     margin-left: 100px;
+
     
 }
 
@@ -364,3 +401,90 @@
     outline: none;
         cursor: pointer;
 }
+
+
+/* Footer */
+
+footer
+{
+    width: 100%;
+    height:40vh;
+    background-color: #131313;
+
+}
+
+.footerContainer
+{
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.footerContent
+{
+    width: 19%;
+    height: 30vh;
+    float: left;
+    margin-left: 60px;
+        margin-top: 20px;
+
+}
+
+.footerContent h4
+{
+    color: rgb(172, 170, 170);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+
+.footerContent p
+{
+    color: rgb(131, 131, 131);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.links
+{
+    margin-top: 40px;
+}
+
+.footerContent .links li
+{
+    list-style-type:none;
+    margin-top: 20px;
+}
+
+.footerContent .links li a
+{
+    text-decoration: none;
+    color:rgb(172, 170, 170);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+
+.footerContent i
+{
+    font-size: 18px;    
+    color:rgb(172, 170, 170);
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.footerContent i span
+{
+    padding-left: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+
+
