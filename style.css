@@ -4,29 +4,24 @@
     padding: 0;
 }
 
-#landingPage{
+/* #landingPage{
     width: 100%;
-    transition: 5s ease-in-out;
 }
 
 #infoSection
 {
     width: 100%;
-    transition: 5s ease-in-out;
 }
 
 #descSection
 {
     width: 100%;
-    transition: 5s ease-in-out;
 }
 
 #foodInfo
 {
     width: 100%;
-    transition: 5s ease-in-out;
-    
-}
+} */
 
 .landingPage{
     width: 100%;
@@ -47,8 +42,8 @@
     height: 80px;
     margin: 0 auto;
     overflow: hidden;
-    background-color:white;   
-    position:fixed; 
+    background-color:white;
+    position:fixed;
     /* padding-top: 20px; */
 }
 
@@ -92,7 +87,7 @@
     font-size: 16px;
 }
 .navLink .button{
- 
+
     background-color:#004A2F;
     cursor: pointer;
 
@@ -136,7 +131,7 @@
     height: 530px;
     margin-top: 40px;
     margin-left: 140px;
-    
+
 }
 
 .landingPageHeading
@@ -150,7 +145,7 @@
     word-spacing: 2px;
     margin-left: 100px;
 
-    
+
 }
 
 .landingPageBody
@@ -165,7 +160,7 @@
     letter-spacing: 2px;
     word-spacing: 2px;
     margin-left: 100px;
-    
+
 }
 
 .landingPageButton
@@ -216,7 +211,7 @@
     padding-top:180px;
     margin-left: 100px;
     font-weight: bold;
-    
+
 }
 
 .infoHeading p
@@ -229,12 +224,12 @@
     padding-top:180px;
     padding-left: 50px;
     font-weight:500;
-    
-    
+
+
 }
 
 .infoButton
-{ 
+{
     width: 180px;
     height: 40px;
     background-color:#004A2F;
@@ -272,7 +267,7 @@
     margin-top: 80px;
     margin-left: 105px;
     letter-spacing: 2px;
-    font-weight:600;    
+    font-weight:600;
 }
 
 .descInfoleft p
@@ -341,7 +336,7 @@
 {
     width: 50%;
     float:right;
-    
+
 }
 
 .foodDesc h3
@@ -427,7 +422,7 @@ footer
     height: 30vh;
     float: left;
     margin-left: 60px;
-        margin-top: 20px;
+    margin-top: 20px;
 
 }
 
@@ -467,12 +462,12 @@ footer
     color:rgb(172, 170, 170);
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    
+
 }
 
 .footerContent i
 {
-    font-size: 18px;    
+    font-size: 18px;
     color:rgb(172, 170, 170);
     margin-left: 10px;
     margin-top: 20px;
@@ -485,6 +480,3 @@ footer
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
-
-
-
