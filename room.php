@@ -43,7 +43,7 @@
           room you can have the great Experience of all time.
         </p>
         <br><br>
-        <button>View Details</button>
+        <button onclick="window.location.href='roomDesc.php';">View Details</button>
       </div>
 
 
@@ -62,7 +62,7 @@
           room you can have the great Experience of all time.
         </p>
         <br><br>
-        <button>View Details</button>
+        <button onclick="window.location.href='roomDesc.php';">View Details</button>
       </div>
 
       <div class="roomImg">
@@ -91,13 +91,15 @@
           room you can have the great Experience of all time.
         </p>
         <br><br>
-        <button>View Details</button>
+        <button onclick="window.location.href='roomDesc.php';">View Details</button>
       </div>
 
 
     </div>
   </section>
-
+  <?php
+  include 'includes/footer.php';
+?>
 
 </body>
 
