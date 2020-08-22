@@ -18,7 +18,9 @@
 
 <body>
     <?php include'includes/nav.php';?>
+
     <section class="DescContainer">
+
         <div class="description">
             <div class="descRoom">
                 <h3>Enjoy the Good Room With Great View</h3>
@@ -64,33 +66,36 @@
         </div>
     </section>
 
-
     <section class="BookingForm">
         <div class="formContainer">
-            <form action="" method="POST">
+            <form action="roomDesc.php" method="POST">
                 <div class="formLabels">
                     <p>Check In </p>
                     <p style="margin-left:35px;">Check Out</p>
                 </div>
 
-                <input type="date" name="checkInDate"><input type="date" name="checkInDate">
+                <input type="date" name="checkInDate">
+                <input type="date" name="checkOutDate">
                 <div class="formLabels">
                     <p>First Name</p>
                     <p>Last Name</p>
                 </div>
-                <input type="text" name="firstName"> <input type="text" name="firstName">
+                <input type="text" name="firstName">
+                <input type="text" name="lastName">
                 <div class="formLabels">
                     <p>Address</p>
                     <p style="margin-left:45px;">Phone Numer</p>
                 </div>
-                <input type="text" name="Address"> <input type="tel" name="Address">
+                <input type="text" name="address">
+                <input type="tel" name="phoneNo">
                 <div class="formLabels">
                     <p>Email</p>
                     <p style="margin-left:60px;">No of People</p>
                 </div>
-                <input type="email" name="userEmail"> <input type="number" name="noOfPeople">
+                <input type="email" name="userEmail">
+                <input type="number" name="noOfPeople">
                 <br>
-                <button type="submit">Book Now</button>
+                <button type="submit" name="bookNow">Book Now</button>
             </form>
 
         </div>
@@ -111,7 +116,9 @@
 
 
     <?php
-    include 'includes/footer.php';?>
+    include 'includes/footer.php';
+    include 'includes/dB.php';
+    ?>
 </body>
 
 </html>
