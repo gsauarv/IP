@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <?php  include 'includes/dB.php';?>
     <section class="top">
         <div class="topContainer">
             <div class="profileImg">
@@ -36,15 +37,16 @@
         <div class="cardContainer">
             <div class="card" style="background-color:#0F1928; color:white">
                 <i class="fas fa-users"></i>
-                <h1>02</h1>
-
-
+                <h1><?php                   
+                    echo NoofBookings()
+                    ?>
+                </h1>
                 <p>No of Booking</p>
             </div>
 
             <div class="card" style="background-color:#011936; color:white">
                 <i class="fas fa-clipboard-list"></i>
-                <h1>13</h1>
+                <h1><?php echo noOfRoom(); ?></h1>
                 <p>Total Room</p>
             </div>
 
@@ -101,45 +103,7 @@
                     </tr>
                 </table>
             </div>
-
-            <div class="custList">
-                <h3>Trusted Customers</h3>
-                <table>
-                    <tr>
-                        <th>Customer Id</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Room Id</th>
-                    </tr>
-
-                    <tr>
-                        <td>01</td>
-                        <td>Saurav</td>
-                        <td>Ghimire</td>
-                        <td>02</td>
-
-                    </tr>
-
-                    <tr>
-                        <td>02</td>
-                        <td>Navid</td>
-                        <td>Sherma</td>
-                        <td>01</td>
-
-                    </tr>
-
-                    <tr>
-                        <td>03</td>
-                        <td>Ajey</td>
-                        <td>Ghimire</td>
-                        <td>03</td>
-
-                    </tr>
-
-            </div>
         </div>
-
-
     </div>
 </body>
 
