@@ -47,7 +47,6 @@
             <ul>
                 <li><a href="userDashboard.php" class="active"><i class="fas fa-eye"></i>Overview</a></li>
                 <li><a href="BookingDetails.php"><i class="fas fa-calendar-week"></i>Booking Details</a></li>
-                <li><a href="#"><i class="fas fa-cog"></i>Services</a></li>
                 <li><a href="#"><i class="fas fa-file-invoice"></i>Bill Amounts</a></li>
                 <li><a href="#"><i class="fas fa-pen"></i>Customer Review</a></li>
             </ul>
