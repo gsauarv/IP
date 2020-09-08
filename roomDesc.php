@@ -24,15 +24,15 @@
         <div class="description">
             <div class="descRoom">
                 <h3>Enjoy the Good Room With Great View</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nihil corrupti, repudiandae, natus
-                    doloremque quidem quod iste dolor facere laborum voluptate dolore alias quos explicabo odio
-                    distinctio deserunt, consectetur maxime.
+                <p>We Provide You the Best Room For You in Affordable Price. 
+                Unlike Others, we do not reduce the services with respective to our 
+                prices. This Particular Room is the Cheapest Option of The Rest.
 
-                    <br><br>
-
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, cumque magnam a, ad aliquid ex
-                    doloremque corrupti, architecto adipisci vero maiores obcaecati quia. Et quasi repudiandae aperiam
-                    fugit earum animi!
+                    <br><br>You can Spend the Great Time with the best 
+                    natural view while enjoying the Best Organic Food. 
+                    By Booking this room you can have the great Experience
+                     of all time.
+                </p>
             </div>
             <div class="roomImgs">
                 <img src="img/Room1.jpg">
@@ -44,13 +44,13 @@
         <div class="services">
             <img src="img/computer.svg">
             <h3>Free TV</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, aperiam?</p>
+            <p>Rebroadcasting TV channels from any source satellites, air or cable networks for Movies and TV shows.</p>
         </div>
 
         <div class="services">
             <img src="img/wifi.svg">
             <h3>Free Wifi</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, aperiam?</p>
+            <p>Stay connected with us. Our free WiFi internet service is available 24-hours* in lobby, meeting room and guest rooms.</p>
         </div>
 
         <div class="services">
@@ -62,7 +62,7 @@
         <div class="services">
             <img src="img/payment.svg">
             <h3>Budget Friendly</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, aperiam?</p>
+            <p>Budget prices vary depending on the season, destination, the amenities, the quality and the level of service.</p>
         </div>
     </section>
 
@@ -102,8 +102,9 @@
 
         <div class="formCont">
             <h3>Expirience The Best room service in Affordable Price.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia eveniet aspernatur, corrupti
-                vel reprehenderit?</p>
+            <p>This hotel provides minimum amenities and services for a lower 
+            price than a regular hotel in the area. This type of hotel provides 
+            clean rooms that are safe and meet the basic needs of a guest.</p>
             <br><br>
             <span>Call: 0145454747</span>
             <br>
