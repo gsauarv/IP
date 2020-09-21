@@ -1,3 +1,6 @@
+<?php 
+    include_once "includes/dB.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,21 +20,21 @@
 </head>
 
 <body>
-    <?php include'includes/nav.php';?>
+    <?php include_once 'includes/nav.php';?>
 
     <section class="DescContainer">
 
         <div class="description">
             <div class="descRoom">
                 <h3>Enjoy the Good Room With Great View</h3>
-                <p>We Provide You the Best Room For You in Affordable Price. 
-                Unlike Others, we do not reduce the services with respective to our 
-                prices. This Particular Room is the Cheapest Option of The Rest.
+                <p>We Provide You the Best Room For You in Affordable Price.
+                    Unlike Others, we do not reduce the services with respective to our
+                    prices. This Particular Room is the Cheapest Option of The Rest.
 
-                    <br><br>You can Spend the Great Time with the best 
-                    natural view while enjoying the Best Organic Food. 
+                    <br><br>You can Spend the Great Time with the best
+                    natural view while enjoying the Best Organic Food.
                     By Booking this room you can have the great Experience
-                     of all time.
+                    of all time.
                 </p>
             </div>
             <div class="roomImgs">
@@ -50,7 +53,8 @@
         <div class="services">
             <img src="img/wifi.svg">
             <h3>Free Wifi</h3>
-            <p>Stay connected with us. Our free WiFi internet service is available 24-hours* in lobby, meeting room and guest rooms.</p>
+            <p>Stay connected with us. Our free WiFi internet service is available 24-hours* in lobby, meeting room and
+                guest rooms.</p>
         </div>
 
         <div class="services">
@@ -62,13 +66,14 @@
         <div class="services">
             <img src="img/payment.svg">
             <h3>Budget Friendly</h3>
-            <p>Budget prices vary depending on the season, destination, the amenities, the quality and the level of service.</p>
+            <p>Budget prices vary depending on the season, destination, the amenities, the quality and the level of
+                service.</p>
         </div>
     </section>
 
     <section class="BookingForm">
         <div class="formContainer">
-            <form action="roomDesc.php" method="POST">
+            <form action="simpleRoom.php" method="POST">
                 <div class="formLabels">
                     <p>Check In </p>
                     <p style="margin-left:35px;">Check Out</p>
@@ -95,30 +100,26 @@
                 <input type="email" name="userEmail">
                 <input type="number" name="noOfPeople">
                 <br>
-                <button type="submit" name="bookNow">Book Now</button>
+                <button type="submit" name="bookNow" id="book" value=150>Book Now</button>
             </form>
 
         </div>
 
         <div class="formCont">
             <h3>Expirience The Best room service in Affordable Price.</h3>
-            <p>This hotel provides minimum amenities and services for a lower 
-            price than a regular hotel in the area. This type of hotel provides 
-            clean rooms that are safe and meet the basic needs of a guest.</p>
+            <p>This hotel provides minimum amenities and services for a lower
+                price than a regular hotel in the area. This type of hotel provides
+                clean rooms that are safe and meet the basic needs of a guest.</p>
             <br><br>
             <span>Call: 0145454747</span>
             <br>
             <button onclick="window.location.href='room.php';">See Other Option</button>
         </div>
-
-
-
     </section>
 
 
     <?php
-    include 'includes/footer.php';
-    include 'includes/dB.php';
+    include_once 'includes/footer.php';  
     ?>
 </body>
 

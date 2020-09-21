@@ -27,21 +27,12 @@
         <div class="userType">
             <h3>User DashBoard</h3>
         </div>
-
-        <div class="userDesc">
-            <div class="userDis">
-                <i class="far fa-user"></i>
-                <h3><?php echo $_SESSION['userName'];?></h3>
-            </div>
-        </div>
     </section>
 
     <div class="navBar">
         <nav class="navs">
             <ul>
                 <li><a href="userDashboard.php"><i class="fas fa-eye"></i>Overview</a></li>
-                <li><a href="BookingDetails.php"><i class="fas fa-calendar-week"></i>Booking Details</a></li>
-                <li><a href="#"><i class="fas fa-file-invoice"></i>Bill Amounts</a></li>
                 <li><a href="reviewPage.php" class="active"><i class="fas fa-pen"></i>Customer Review</a></li>
             </ul>
         </nav>
@@ -56,14 +47,18 @@
             <h3>Feedback & Complaint</h3>
             <form action="reviewPage.php" method="POST">
                 <br>
-                <input name="userReview" type="text" placeholder="Your Name">
+                <input name="userName" type="text" placeholder="Your Name">
                 <input name="userReviewEmail" type="email" placeholder="Your Email"><br>
-                <input name="userReview" type="text" placeholder="Your Subject" style="width:530px;">
+                <input name="userReviewSubject" type="text" placeholder="Your Subject" style="width:530px;">
                 <br>
-                <textarea placeholder="Your Message"></textarea><br>
-                <button>Send</button>
+                <textarea placeholder="Your Message" name="userReview"></textarea><br>
+                <button type="submit" name="sendReview">Send</button>
             </form>
-
+            <?php 
+                include_once 'includes/dB.php';
+                customerReview();
+                
+            ?>
         </div>
     </section>
 

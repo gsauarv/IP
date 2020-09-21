@@ -6,8 +6,7 @@
        
         header("Location:userLogin.php");
         exit();
-        session_abort();
-
+        session_destroy();
 
     }
 
@@ -33,21 +32,12 @@
         <div class="userType">
             <h3>User DashBoard</h3>
         </div>
-
-        <div class="userDesc">
-            <div class="userDis">
-                <i class="far fa-user"></i>
-                <h3><?php echo $_SESSION['userName'];?></h3>
-            </div>
-        </div>
     </section>
 
     <div class="navBar">
         <nav class="navs">
             <ul>
                 <li><a href="userDashboard.php" class="active"><i class="fas fa-eye"></i>Overview</a></li>
-                <li><a href="BookingDetails.php"><i class="fas fa-calendar-week"></i>Booking Details</a></li>
-                <li><a href="#"><i class="fas fa-file-invoice"></i>Bill Amounts</a></li>
                 <li><a href="reviewPage.php"><i class="fas fa-pen"></i>Customer Review</a></li>
             </ul>
         </nav>
@@ -55,27 +45,12 @@
 
     <div class="welcomeMessage">
         <h3>Welcome Back <?php echo $_SESSION['userName'];?> ,</h3>
+        <h3>Here You Can Request Help or Give Some Customer Review that Will Help Us Improve Our Services.</h3>
     </div>
     <div class="mainDashBoard">
         <div class="dashboardContainer">
 
-            <div class="userCards" style="background-color:#293462 ;">
-                <i class="fas fa-info"></i>
-                <h4>Room No</h4>
-                <p>012</p>
-            </div>
 
-            <div class="userCards" style="background-color:#0E2431 ;">
-                <i class="fas fa-wallet"></i>
-                <h4>Total Bill</h4>
-                <p>$150</p>
-            </div>
-
-            <div class="userCards" style="background-color:#3e3e3e;">
-                <i class="fas fa-calendar-week"></i>
-                <h4>Booking Date</h4>
-                <p>4</p>
-            </div>
         </div>
 
         <div class="supportedBy">
@@ -107,6 +82,12 @@
                 <textarea type="text" name="helpText" placeholder="Write Something."></textarea><br>
                 <button name="helpButton" type="submit">Send Us</button>
             </form>
+            <?php 
+            
+                include_once 'includes/dB.php';
+                helpText()
+
+            ?>
         </div>
 
         <h3>Or You can Call Our Help Desk</h3>

@@ -27,9 +27,11 @@
                 <ul>
                     <li><a href="#landingPage">Home</a></li>
                     <li><a href="#infoSection">Features</a></li>
-                    <li><a href="#descSection">Gallery</a></li>
-                    <li><a href="#foodInfo">Our History</a></li>
-                    <button class="button">Book Now</button>
+                    <li><a href="#descSection">Room</a></li>
+                    <li><a href="#foodInfo">Our Food</a></li>
+                    <button onclick="window.location.href='room.php';" class="button" style="margin-right: 10px;">Book
+                        Room</button><button onclick="window.location.href='userLogin.php';"
+                        style="width: 130px; height: 35px; border: none; background-color: #004A2F; color: white;cursor: pointer;    font-family:'Quicksand', sans-serif;font-size: 14px;margin-right: 10px;">Login</button>
                 </ul>
             </div>
 

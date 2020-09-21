@@ -1,3 +1,18 @@
+<?php 
+    require 'includes/dB.php';
+    userLogin();
+    if(!isset($_SESSION['userName']))
+    {
+       
+        header("Location:userLogin.php");
+        exit();
+        session_abort();
+
+
+    }
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,20 +26,21 @@
 </head>
 
 <body>
-    <?php  include 'includes/dB.php';?>
+    <?php  include_once'includes/dB.php';?>
     <section class="top">
         <div class="topContainer">
             <div class="profileImg">
                 <img src="img/baby1.jpg">
             </div>
-            <p>Saurav Ghimire</p>
+            <p>Admin | The Rest</p>
 
             <div class="navbar">
                 <ul>
-                    <li><a href="#">Overview</a></li>
-                    <li><a href="#">Booking Detail</a></li>
-                    <li><a href="#">Room Detail</a></li>
-                    <li><a href="#">Account Status</a></li>
+                    <li><a href="admin.php">Overview</a></li>
+                    <li><a href="details.php">Booking Detail</a></li>
+                    <li><a href="customerReview.php">Customer Review</a></li>
+                    <li><a href="help.php">Help Desk</a></li>
+                    <li><a href="update.php">Change Password</a></li>
                 </ul>
             </div>
         </div>
@@ -38,7 +54,8 @@
             <div class="card" style="background-color:#0F1928; color:white">
                 <i class="fas fa-users"></i>
                 <h1><?php                   
-                    echo NoofBookings()
+                        $temp = NoofBookings();
+                        echo $temp;
                     ?>
                 </h1>
                 <p>No of Booking</p>
@@ -52,7 +69,7 @@
 
             <div class="card" style="background-color:#0E6BA8; color:white">
                 <i class="fas fa-check-square"></i>
-                <h1>8</h1>
+                <h1><?php echo 15-$temp; ?></h1>
                 <p>Booked Room</p>
             </div>
         </div>
@@ -73,33 +90,34 @@
                     <tr>
                         <td>01</td>
                         <td>Normal</td>
-                        <td>$150</td>
                         <td>05</td>
+                        <td>$150</td>
 
                     </tr>
 
                     <tr>
                         <td>02</td>
                         <td>Deluxe</td>
+                        <td>05</td>
                         <td>$250</td>
-                        <td>08</td>
 
                     </tr>
 
                     <tr>
                         <td>03</td>
                         <td>Luxury</td>
-                        <td>$450</td>
                         <td>05</td>
+                        <td>$450</td>
 
                     </tr>
 
                     <tr>
                         <th>Total</td>
                         <td>-</td>
+                        <td>15</td>
                         <td>-</td>
 
-                        <td>18</td>
+
                     </tr>
                 </table>
             </div>

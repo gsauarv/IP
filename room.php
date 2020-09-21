@@ -43,7 +43,7 @@
           room you can have the great Experience of all time.
         </p>
         <br><br>
-        <button onclick="window.location.href='roomDesc.php';">View Details</button>
+        <button onclick="window.location.href='simpleRoom.php';">View Details</button>
       </div>
 
 
@@ -62,7 +62,7 @@
           room you can have the great Experience of all time.
         </p>
         <br><br>
-        <button onclick="window.location.href='roomDesc.php';">View Details</button>
+        <button onclick="window.location.href='deluxeRoom.php';">View Details</button>
       </div>
 
       <div class="roomImg">
@@ -91,7 +91,7 @@
           room you can have the great Experience of all time.
         </p>
         <br><br>
-        <button onclick="window.location.href='roomDesc.php';">View Details</button>
+        <button onclick="window.location.href='luxuryRoom.php';">View Details</button>
       </div>
 
 
